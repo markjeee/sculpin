@@ -53,7 +53,7 @@ class Application extends BaseApplication implements EmbeddedComposerAwareInterf
             date_default_timezone_set(@date_default_timezone_get());
         }
 
-        $version = $embeddedComposer->findPackage('sculpin/sculpin')->getPrettyVersion();
+        $version = $embeddedComposer->findPackage('markjeee/sculpin')->getPrettyVersion();
         if ($version !== Sculpin::GIT_VERSION && Sculpin::GIT_VERSION !== '@'.'git_version'.'@') {
             $version .= ' ('.Sculpin::GIT_VERSION.')';
         }

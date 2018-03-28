@@ -1,6 +1,6 @@
 {
-    "name": "sculpin/sculpin",
-    "description": "Static Site Generator",
+    "name": "markjeee/sculpin",
+    "description": "Static Site Generator -- markjeee fork",
     "homepage": "https://sculpin.io",
     "keywords": ["static", "site", "generator"],
     "license": "MIT",
